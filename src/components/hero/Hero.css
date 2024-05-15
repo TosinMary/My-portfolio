@@ -1,0 +1,119 @@
+/*.intro{
+    height: calc(100vh - 20px);
+    max-width: 1300px;
+    margin: 0 auto;
+    position: relative;
+   
+}
+.hero-text{
+    position: absolute;
+    width: 550px;
+    top: 100px;
+    left: 140px;
+
+}
+.hero-image{
+   position: absolute;
+   width: 300px;
+   height: 400px;
+   background-color: #e6e6fa;
+   top: 80px;
+   right: 130px;
+   z-index: 1;
+   object-fit: cover;
+   padding: 50px 20px;
+   border-radius: 40%;
+   box-shadow: -1px 1px 3px -3px rgba(0,0,0,0.79);
+-webkit-box-shadow: -1px 1px 3px -3px rgba(0,0,0,0.79);
+-moz-box-shadow: -1px 1px 3px -3px rgba(0,0,0,0.79);
+}
+.hero-image img{
+   
+}
+*/
+.hero-container{
+    background-color: #c3b1e1;
+}
+.intro{
+    max-width: 1020px;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 40px;
+    gap: 50px;
+   
+}
+.hero-image{
+   width: 280px;
+   height: 430px;
+   background-color: #e6e6fa;
+   object-fit: cover;
+   border-radius: 40%;
+   box-shadow: -1px 1px 3px -3px rgba(0,0,0,0.79);
+-webkit-box-shadow: -1px 1px 3px -3px rgba(0,0,0,0.79);
+-moz-box-shadow: -1px 1px 3px -3px rgba(0,0,0,0.79);
+}
+.hello{
+    font-size: 48px;
+    color: rgba(37, 32, 32, 0.847);
+    font-weight: 900;
+
+}
+.introText{
+    color: #702670;
+    font-size: 48px;
+    font-weight: 900;
+}
+.textline{
+    color: rgba(37, 32, 32, 0.847);
+    font-size: 48px;
+    font-weight: 900;
+}
+h3{
+    color: rgba(37, 32, 32, 0.847);
+    font-size: 24px;
+    font-weight: 900;
+}
+p{
+    letter-spacing: 0.5px;
+    line-height: 32px;
+    font-size: medium;
+    font-weight: 400;
+}
+button{
+    display: inline-block;
+    padding: 15px;
+    margin-top: 10px;
+    width: 150px;
+    background-color: transparent;
+    border: 2px solid #702670;
+    color: black;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+button:hover{
+    background-color: #702670;
+    color: white;
+    border: none;
+}
+
+@media screen and (max-width: 840px) {
+  .intro{
+    height: 100%;
+    flex-wrap: wrap;
+    padding-bottom: 30px;
+  }
+  .hero-image{
+    width: 250px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    
+  }
+}
+

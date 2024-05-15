@@ -1,0 +1,99 @@
+.navbar{
+    height: 20px;
+    max-width: 1020px;
+    margin: 0 auto;
+    padding: 32px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0px;
+    
+}
+.logo{
+    background-image: linear-gradient(to right, purple, #702670);
+    object-fit: cover;
+    font-size: 30px;
+    color: white;
+    border-radius: 5px;
+    padding: 0 5px;
+}
+.nav-links-section{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    transition: 2s ease-in;
+}
+.nav-link{
+    margin: 16px;
+    cursor: pointer;
+}
+.nav-link:hover{
+    border-bottom: 2px solid #702670;
+    padding-bottom: 5px;
+    color: #702670;
+}
+.navBtn{
+    display: inline-block;
+    padding: 15px;
+    width: 150px;
+    background-color: transparent;
+    margin-bottom: 5px;
+    border: 2px solid #702670;
+    color: black;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 400;
+    
+}
+.navBtn:hover{
+    background-color: #702670;
+    color: white;
+    border: none;
+}
+.active{
+    color: #702670;
+    padding-bottom: 0.5rem ;
+    border-bottom: 3px solid #702670;
+}
+.menuBar{
+    display: none;
+    width: 2rem;
+    height: 2rem;
+    object-fit: cover;
+}
+.nav-menu{
+    position: absolute;
+    top: 4rem;
+    left: 2rem;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    height: fit-content;
+    min-width: 15rem;
+    background: #702670;
+    border-radius: 1rem;
+}
+.nav-links{
+    color: white;
+padding: 0.5rem 3rem;
+margin: 0.25rem;
+background:#702670 ;
+border-bottom:2px solid #c3b1e1;
+}
+@media screen and (max-width: 720px) {
+.menuBar{
+    display: flex;
+}
+.nav-links-section{
+    display: none;
+}
+.navBtn{
+    display: none;
+}
+.logo{
+    display: none;
+}
+}

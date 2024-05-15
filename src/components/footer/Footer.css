@@ -1,0 +1,16 @@
+.footer-container{
+    background-color: #c3b1e1;
+    padding: 20px 0;
+}
+.footer-layout{
+    width: 100vw;
+    max-width: 1020px;
+    margin: 10px auto;
+    text-align: center;
+}
+.social-logo{
+    width: 2rem;
+    height: 2rem;
+    object-fit: cover;
+    margin-right: 0.8rem;
+}
