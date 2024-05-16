@@ -1,13 +1,17 @@
+.nav-container{
+    width: 100vw;
+}
 .navbar{
     height: 20px;
-    max-width: 1020px;
     margin: 0 auto;
-    padding: 32px 16px;
+    padding: 16px 0px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     position: fixed;
     top: 0px;
+    background-color: #702670;
+    width: 100vw;
     
 }
 .logo{
@@ -23,39 +27,40 @@
     justify-content: space-between;
     gap: 20px;
     transition: 2s ease-in;
+    
 }
 .nav-link{
     margin: 16px;
     cursor: pointer;
 }
 .nav-link:hover{
-    border-bottom: 2px solid #702670;
+    border-bottom: 2px solid white;
     padding-bottom: 5px;
-    color: #702670;
+    color: white;
 }
 .navBtn{
     display: inline-block;
-    padding: 15px;
-    width: 150px;
+    height: 40px;
+    padding: 8px;
+    width: 120px;
     background-color: transparent;
-    margin-bottom: 5px;
-    border: 2px solid #702670;
+    border: 2px solid #c3b1e1;
     color: black;
     border-radius: 25px;
     cursor: pointer;
     font-size: 16px;
     font-weight: 400;
-    
+    margin-bottom: 12px;
 }
 .navBtn:hover{
-    background-color: #702670;
-    color: white;
-    border: none;
+    background-color: white;
+    border: 3px solid #702670;
+    color: black;
 }
 .active{
-    color: #702670;
+    color: white;
     padding-bottom: 0.5rem ;
-    border-bottom: 3px solid #702670;
+    border-bottom: 3px solid white;
 }
 .menuBar{
     display: none;
@@ -86,6 +91,7 @@ border-bottom:2px solid #c3b1e1;
 @media screen and (max-width: 720px) {
 .menuBar{
     display: flex;
+
 }
 .nav-links-section{
     display: none;

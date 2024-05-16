@@ -33,9 +33,10 @@
 */
 .hero-container{
     background-color: #c3b1e1;
+    width: 100vw;
+   
 }
 .intro{
-    max-width: 1020px;
     height: 100vh;
     display: flex;
     justify-content: space-between;

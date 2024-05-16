@@ -1,10 +1,11 @@
 .about-container{
     background-color: #e6e6fa;
     padding: 40px 0;
+    width: 100vw;
+
 }
 .skills{
-    width: 100vw;
-    max-width: 1020px;
+    
     margin: 40px auto;
     padding: 0 40px;
     text-align: center;
@@ -16,8 +17,10 @@
     margin-bottom: 25px;
 }
 .about-me{
+    display: flex;
+    flex-wrap: wrap;
     margin: 20px 0;
-    text-align: left;
+    text-align: center;
 }
 p{
     letter-spacing: 0.5px;
@@ -75,16 +78,39 @@ p{
     font-size: 25px;
 }
 @media screen and(max-width: 768px){
+    .about-container{
+        padding: 20px 0;
+        width: 50vw;
+    }
     p{
         font-size: 16px;
+        width: 30vw;
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
     }
     .skill-icon{
         display: none;
     }
     .lang-skill{
         padding: 20px;
-        width: 10vw;
+        width: 9vw;
         height: 20px;
+    }
+    .skills{
+        width: 50vw;
+        max-width: 720px;
+        padding: 0 20px;
+       
+    }
+    .skills h3{
+        font-size: 32px;
+        margin-bottom: 25px;
+    }
+    .about-me p{
+    width: 10px;
+    margin: 20px 0;
+    text-align: center;
     }
 }
 

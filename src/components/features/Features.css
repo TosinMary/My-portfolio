@@ -1,6 +1,8 @@
 .feature-container{
     background-color: #e6e6fa;
     padding: 20px 0;
+    width: 100vw;
+
 }
 .project-container{
     display: flex;
