@@ -8,6 +8,7 @@
     margin: 40px auto;
     padding: 0 40px;
     text-align: center;
+    max-width: 67rem;
 }
 .contact-header{
     font-size: 48px;
@@ -27,16 +28,24 @@ align-items: center;
 input{
 width: 50vw;
 padding: 0.8rem;
-border-radius: 1.5rem;
+border-radius: 1rem;
 margin-bottom: 1.5rem;
 outline: none;
-border: 2px solid #702670;
+border: 1px solid #702670;
+background-color: transparent;
+box-shadow: -2px 0px 7px 2px rgba(184,136,178,0.75);
+-webkit-box-shadow: -2px 0px 7px 2px rgba(184,136,178,0.75);
+-moz-box-shadow: -2px 0px 7px 2px rgba(184,136,178,0.75);
 }
 textarea{
     width: 50vw;
     height: 5rem;
-    border-radius: 1.5rem;
+    border-radius: 1rem;
     outline: none;
-    border: 2px solid #702670;
+    border: 1px solid #702670;
     padding: 0.8rem;
+    background-color: transparent;
+    box-shadow: -2px 0px 7px 2px rgba(184,136,178,0.75);
+    -webkit-box-shadow: -2px 0px 7px 2px rgba(184,136,178,0.75);
+    -moz-box-shadow: -2px 0px 7px 2px rgba(184,136,178,0.75);
 }

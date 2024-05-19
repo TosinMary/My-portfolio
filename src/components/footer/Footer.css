@@ -7,6 +7,7 @@
 .footer-layout{
     margin: 10px auto;
     text-align: center;
+    max-width: 67rem;
 }
 .social-logo{
     width: 2rem;

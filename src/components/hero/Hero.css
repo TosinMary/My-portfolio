@@ -40,6 +40,7 @@
 }
 .intro{
     height: 100vh;
+    max-width: 67rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
