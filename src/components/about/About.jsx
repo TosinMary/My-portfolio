@@ -46,15 +46,14 @@ const About = () => {
             </div>
             <div className='lang-skill'>
                 <FaReact className='skill-icon'/>
-                <h4>React.js</h4>
+                <h4>React.js / Redux</h4>
             </div>
             <div className='lang-skill'>
                 <FaGit className='skill-icon'/>
                 <h4>Version Control</h4>
             </div>
             <div className='lang-skill'>
-                <SiTypescript className='skill-icon'/>
-                <h4>Typescript</h4>
+                <h4>RestApi Consumption</h4>
             </div>
             
             </div>
