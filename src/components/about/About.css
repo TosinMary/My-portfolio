@@ -64,12 +64,13 @@ p{
 .lang-skill{
     background-color: rgb(38, 35, 35);
     color: white;
-    padding: 40px;
+    padding: 20px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 10px;
-    width: 30vw;
+    gap: 2px;
+    width: 24vw;
     height: 50px;
     margin: 0 auto;
 }
@@ -80,7 +81,7 @@ p{
 @media screen and(max-width: 768px){
     .about-container{
         padding: 20px 0;
-        width: 50vw;
+        width: 100vw;
     }
     p{
         font-size: 16px;
@@ -91,11 +92,6 @@ p{
     }
     .skill-icon{
         display: none;
-    }
-    .lang-skill{
-        padding: 20px;
-        width: 9vw;
-        height: 20px;
     }
     .skills{
         width: 50vw;
@@ -114,12 +110,4 @@ p{
     }
 }
 
-/*
-@media screen and(max-width: 768px) {
-    .lang-skills{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 10px;
-    }
-}
-*/
+
