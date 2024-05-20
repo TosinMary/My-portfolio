@@ -1,5 +1,6 @@
 .nav-container{
-    width: 100vw;
+    width: 100%;
+    overflow-x: hidden;
 }
 .navbar{
     height: 20px;
@@ -11,7 +12,7 @@
     position: fixed;
     top: 0px;
     background-color: #702670;
-    width: 100vw;
+    width: 100%;
     
 }
 .logo{
@@ -45,7 +46,7 @@
     width: 120px;
     background-color: transparent;
     border: 2px solid #c3b1e1;
-    color: black;
+    color: white;
     border-radius: 25px;
     cursor: pointer;
     font-size: 16px;

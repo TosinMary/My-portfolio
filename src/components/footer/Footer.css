@@ -1,7 +1,8 @@
 .footer-container{
     background-color: #c3b1e1;
     padding: 20px 0;
-    width: 100vw;
+    width: 100%;
+    overflow-x: hidden;
    
 }
 .footer-layout{
