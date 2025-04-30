@@ -15,15 +15,35 @@ const About = () => {
     <section className='skills'>
         <h3>What i do</h3>
         <div className='about-me'>
-            <p>Tosin is a skilled frontend developer proficient in HTML, CSS, and JavaScript
-                 with expertise in modern frameworks like React.js, Tailwind.css and Bootstrap.css.
-                  Dedicated to crafting user-centric digital experiences by seamlessly weaving
-                   together functionality and aesthetics. Excels at transforming design concepts 
-                   into responsive web applications with visually appealing and intuitive interfaces
-                    that enhance user engagement.</p>
+            <p>Tosin is a Quality Analyst with a strong frontend development background, 
+                proficient in HTML, CSS, JavaScript, and modern frameworks like React.js, Tailwind CSS, 
+                and Bootstrap. She combines in-depth testing expertise with UI/UX insight to ensure responsive, 
+                accessible, and high-performing web applications. With a focus on functionality, reliability, 
+                and user experience, Tosin bridges the gap between quality assurance and frontend engineering.</p>
         </div>
         <div className='skills-sec'>
             <div className='lang-skills'>
+            <div className='lang-skill'>
+                <h4>Manual Testing</h4>
+            </div>
+            <div className='lang-skill'>
+                <h4>API Testing (Postman)</h4>
+            </div>
+            <div className='lang-skill'>
+                <h4>Agile Methodology</h4>
+            </div>
+            <div className='lang-skill'>
+                <h4>Test Planning</h4>
+            </div>
+            <div className='lang-skill'>
+                <h4>Functional Testing</h4>
+            </div>
+            <div className='lang-skill'>
+                <h4>Performance Testing</h4>
+            </div>
+            <div className='lang-skill'>
+                <h4>Usability Testing</h4>
+            </div>
             <div className='lang-skill'>
                 <FaHtml5 className='skill-icon' />
                 <h4>HTML5</h4>
