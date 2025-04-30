@@ -20,7 +20,7 @@ function Footer() {
             <a href='https://github.com/TosinMary' target='blank'><img src={github} alt='github-logo' className='social-logo'/></a>
             <a href='https://x.com/btosin241?t=AJtp9BMErB-wh2gXiGnh4g&s=09' target='blank'><img src={twitter} alt='twitter-logo' className='social-logo'/></a>
         </div>
-        <p>All right and reserved by Bamidele Tosin 💡 {date}</p>
+        <p>Created with Love and Light by Bamidele Tosin Mary 💡 {date}</p>
         </section>
     </div>
   )
