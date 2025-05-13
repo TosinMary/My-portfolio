@@ -13,7 +13,7 @@ const About = () => {
   return (
     <div className='about-container' id='about'>
     <section className='skills'>
-        <h3>What i do</h3>
+        <h3>About Me</h3>
         <div className='about-me'>
             <p>Tosin is a Quality Analyst with a strong frontend development background, 
                 proficient in HTML, CSS, JavaScript, and modern frameworks like React.js, Tailwind CSS, 

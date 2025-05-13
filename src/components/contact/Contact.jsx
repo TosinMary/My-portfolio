@@ -10,7 +10,7 @@ function Contact() {
 
     emailjs
       .sendForm('service_9afwywd', 'template_uxp31zf', form.current, {
-        publicKey: '8_TegB158ayA5Im61',
+        publicKey: '6mGONqE_Mjg1mZjCJ1',
       })
       .then(
         () => {
