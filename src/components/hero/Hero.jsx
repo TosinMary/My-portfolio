@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Hero.css"
 import bg from "../../assets/hero-picture.png"
-import CV from "../../assets/Bamidele_Tosin_Mary_QA_Cvv.pdf"
+import CV from "../../assets/Bamidele-Tosin-Mary-QA-Cvv.pdf"
 const Hero = () => {
   return (
     <div className='hero-container' id='home'>
