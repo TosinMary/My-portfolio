@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import './Navbar.css'
 import { Link } from 'react-scroll'
-import CV from "../../assets/Bamidele-Tosin-Mary-QA-Cvv.pdf"
+import CV from "../../assets/Bamidele Tosin Mary QA-CV (3).pdf"
 
 import menuBar from "../../assets/burger-bar.png"
 

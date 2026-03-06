@@ -13,36 +13,29 @@ const About = () => {
   return (
     <div className='about-container' id='about'>
     <section className='skills'>
-        <h3>About Me</h3>
-        <div className='about-me'>
-            <p>Tosin is a Quality Analyst with a strong frontend development background, 
-                proficient in HTML, CSS, JavaScript, and modern frameworks like React.js, Tailwind CSS, 
-                and Bootstrap. She combines in-depth testing expertise with UI/UX insight to ensure responsive, 
-                accessible, and high-performing web applications. With a focus on functionality, reliability, 
-                and user experience, Tosin bridges the gap between quality assurance and frontend engineering.</p>
-        </div>
+        <h3>Tools and Technologies</h3>
         <div className='skills-sec'>
             <div className='lang-skills'>
             <div className='lang-skill'>
-                <h4>Manual Testing</h4>
+                <h4>Manual & Automation Testing</h4>
             </div>
             <div className='lang-skill'>
                 <h4>API Testing (Postman)</h4>
             </div>
             <div className='lang-skill'>
-                <h4>Agile Methodology</h4>
+                <h4>Agile Methodology (Jira/Testrail)</h4>
             </div>
             <div className='lang-skill'>
-                <h4>Test Planning</h4>
+                <h4>Cypress</h4>
             </div>
             <div className='lang-skill'>
-                <h4>Functional Testing</h4>
+                <h4>k6</h4>
             </div>
             <div className='lang-skill'>
-                <h4>Performance Testing</h4>
+                <h4>JMeter</h4>
             </div>
             <div className='lang-skill'>
-                <h4>Usability Testing</h4>
+                <h4>Jerkins</h4>
             </div>
             <div className='lang-skill'>
                 <FaHtml5 className='skill-icon' />
@@ -66,14 +59,14 @@ const About = () => {
             </div>
             <div className='lang-skill'>
                 <FaReact className='skill-icon'/>
-                <h4>React.js / Redux</h4>
+                <h4>React.js</h4>
             </div>
             <div className='lang-skill'>
                 <FaGit className='skill-icon'/>
                 <h4>Version Control</h4>
             </div>
             <div className='lang-skill'>
-                <h4>RestApi Consumption</h4>
+                <h4>Playwright</h4>
             </div>
             
             </div>

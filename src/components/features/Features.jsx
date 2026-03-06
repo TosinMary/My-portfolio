@@ -10,7 +10,74 @@ import { FaExternalLinkAlt } from "react-icons/fa";
 const Features = () => {
   return (
     <div className='feature-container' id='project'>
-      <h3>My Projects</h3>
+      <h3>Software Testing Sample Projects</h3>
+       <section className='project-container'>
+            <div className='project'>
+                <div className='img-container'>
+                  <h4>Zedu App Test Cases</h4>
+                </div>
+                <div className='project-summary'>
+                  <div >
+                   <h4>Test Case Doc: <a href='https://docs.google.com/spreadsheets/d/1zGsv2sYxnTYTzOZYHcdTD_88PlRGNMpVZDbXvUoj2b4/edit?usp=sharing' className='project-icon' target='_blank'><FaExternalLinkAlt /></a></h4> <br></br>
+                    <h4>Live Demo: <a href='https://zedu.chat/'className='project-icon' target='_blank'><FaExternalLinkAlt /></a></h4>
+                  </div>
+                </div>
+            </div> <div className='project'>
+                <div className='img-container'>
+                  <h4>Gradiffic App Test Cases</h4>
+                </div>
+                <div className='project-summary'>
+                  <div >
+                   <h4>Test Case Doc: <a href='https://docs.google.com/spreadsheets/d/1mJkLJNjSWQaXLog9q2zl8ViU5dvsHuJkPy07TrTWEE0/edit?usp=sharing' className='project-icon' target='_blank'><FaExternalLinkAlt /></a></h4> <br></br>
+                    <h4>Live Demo: <a href='https://api.dev.gradific.com'className='project-icon' target='_blank'><FaExternalLinkAlt /></a></h4>
+                  </div>
+                </div>
+            </div>
+             <div className='project'>
+                <div className='img-container'>
+                  <h4>API Automation Link with Postman</h4>
+                </div>
+                <div className='project-summary'>
+                  <div >
+                   <h4>Zedu App API Automation Link: <a href='https://www.postman.com/api-test-1186/workspace/zedu/collection/42497516-cce2356d-6dbb-40c3-88ee-b790282f7c29?action=share&source=copy-link&creator=42497516' className='project-icon' target='_blank'><FaExternalLinkAlt /></a></h4>
+                  </div>
+                </div>
+            </div>
+             <div className='project'>
+                <div className='img-container'>
+                  <h4>Sample Test Plan</h4>
+                </div>
+                <div className='project-summary'>
+                  <div >
+                   <h4>Telex App Test Plan Doc: <a href='https://docs.google.com/document/d/12a5yGWC5Uct5lvKhu4-JhK2fbalOsxaRNj74mAu281w/edit?usp=sharing' className='project-icon' target='_blank'><FaExternalLinkAlt /></a></h4> <br></br>
+                    <h4>Delve App Test Plan Doc: <a href='https://zedu.chat/'className='project-icon' target='_blank'><FaExternalLinkAlt /></a></h4>
+                  </div>
+                </div>
+            </div>
+            <div className='project'>
+                <div className='img-container'>
+                  <h4>Sample Bug Report</h4>
+                </div>
+                <div className='project-summary'>
+                  <div >
+                   <h4>TCN App Bug Report: <a href='https://docs.google.com/document/d/12a5yGWC5Uct5lvKhu4-JhK2fbalOsxaRNj74mAu281w/edit?usp=sharing' className='project-icon' target='_blank'><FaExternalLinkAlt /></a></h4> <br></br>
+                    <h4>Telex Mobile App Bug Report: <a href='https://zedu.chat/'className='project-icon' target='_blank'><FaExternalLinkAlt /></a></h4>
+                  </div>
+                  </div>
+                  </div>
+                    <div className='project'>
+                <div className='img-container'>
+                  <h4>PetStore App Automation with RestAsured, Java and TestNG</h4>
+                </div>
+                <div className='project-summary'>
+                  <div >
+                   <h4>PetStore User Feature Automation: <a href='https://github.com/TosinMary/dictionary-app' className='project-icon' target='_blank'><FaGit /></a></h4> <br></br>
+                    <h4>PetStore OrderPurchase Feature Automation: <a href='https://github.com/TosinMary/PetStore-OrderPurchase-API-Automation.git'className='project-icon' target='_blank'><FaGit /></a></h4>
+                  </div>
+                  </div>
+                  </div>
+            </section>
+      <h3>Application Development Sample Projects</h3>
          <section className='project-container'>
             <div className='project'>
                 <div className='img-container'>
