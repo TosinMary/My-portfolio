@@ -71,8 +71,8 @@ const Features = () => {
                 </div>
                 <div className='project-summary'>
                   <div >
-                   <h4>PetStore User Feature Automation: <a href='https://github.com/TosinMary/dictionary-app' className='project-icon' target='_blank'><FaGit /></a></h4> <br></br>
-                    <h4>PetStore OrderPurchase Feature Automation: <a href='https://github.com/TosinMary/PetStore-OrderPurchase-API-Automation.git'className='project-icon' target='_blank'><FaGit /></a></h4>
+                   <h4>PetStore User Feature: <a href='https://github.com/TosinMary/dictionary-app' className='project-icon' target='_blank'><FaGit /></a></h4> <br></br>
+                    <h4>PetStore OrderPurchase Feature: <a href='https://github.com/TosinMary/PetStore-OrderPurchase-API-Automation.git'className='project-icon' target='_blank'><FaGit /></a></h4>
                   </div>
                   </div>
                   </div>
