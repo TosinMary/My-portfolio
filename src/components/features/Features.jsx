@@ -50,7 +50,7 @@ const Features = () => {
                 <div className='project-summary'>
                   <div >
                    <h4>Telex App Test Plan Doc: <a href='https://docs.google.com/document/d/12a5yGWC5Uct5lvKhu4-JhK2fbalOsxaRNj74mAu281w/edit?usp=sharing' className='project-icon' target='_blank'><FaExternalLinkAlt /></a></h4> <br></br>
-                    <h4>Delve App Test Plan Doc: <a href='https://zedu.chat/'className='project-icon' target='_blank'><FaExternalLinkAlt /></a></h4>
+                    <h4>Delve App Test Plan Doc: <a href='https://docs.google.com/document/d/1HEbXRRAHDmnChEyl1kE0cUXgSYN2OPwx8V92mmV1hlo/edit?usp=sharing'className='project-icon' target='_blank'><FaExternalLinkAlt /></a></h4>
                   </div>
                 </div>
             </div>
@@ -60,8 +60,8 @@ const Features = () => {
                 </div>
                 <div className='project-summary'>
                   <div >
-                   <h4>TCN App Bug Report: <a href='https://docs.google.com/document/d/12a5yGWC5Uct5lvKhu4-JhK2fbalOsxaRNj74mAu281w/edit?usp=sharing' className='project-icon' target='_blank'><FaExternalLinkAlt /></a></h4> <br></br>
-                    <h4>Telex Mobile App Bug Report: <a href='https://zedu.chat/'className='project-icon' target='_blank'><FaExternalLinkAlt /></a></h4>
+                   <h4>TCN App Bug Report: <a href='https://docs.google.com/spreadsheets/d/1TlcBE5JuGI3nrOYt04eqRx8XVK2Z46zRlKz_gYtIvlc/edit?usp=sharing' className='project-icon' target='_blank'><FaExternalLinkAlt /></a></h4> <br></br>
+                    <h4>Telex API Bug Report: <a href='https://docs.google.com/spreadsheets/d/1jZL_R9qFHs0dz-j-C-2__Dp0of4dN1gchQ3F63jiMUk/edit?usp=sharing'className='project-icon' target='_blank'><FaExternalLinkAlt /></a></h4>
                   </div>
                   </div>
                   </div>
